@@ -1,0 +1,6 @@
+{
+  "name": "재미난회사",
+  "description": "재미를 매개로 일상의 리듬과 온기 관계를 산뜻하게 가꾸는 청년 마음 회복 프로젝트 '재미난회사' 및 '연결 캠페인' 안내, 안심 신청 및 활동 공유 공식 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
