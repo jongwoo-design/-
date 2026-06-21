@@ -4,6 +4,12 @@
  */
 
 import { ActivityDiary, CheeringMessage } from '../types';
+// @ts-ignore
+import caféImage from '../assets/images/leho_cafe_original_1782016401447.jpg';
+// @ts-ignore
+import woodImage from '../assets/images/wood_workshop_original_1782016424382.jpg';
+// @ts-ignore
+import leatherImage from '../assets/images/leather_workshop_original_1782016437883.jpg';
 
 export const SPACES_DATA = [
   {
@@ -15,7 +21,7 @@ export const SPACES_DATA = [
     mentor: '최진성 대표 (느호카페 마스터 바리스타)',
     mentorIntro: '“서두르거나 애쓰지 않아도 괜찮습니다. 갓 볶아낸 원두의 향긋함을 맡고 달지 않은 러스크를 함께 나눠 먹는 작은 발걸음부터, 편안한 이웃이 되어 드릴게요.”',
     activities: ['핸드드립 홈 바리스타 추출 및 커피 상식 학습', '구움과자 베이킹 실습 및 플레이팅', '카페 매니지먼트 및 주민 나눔 음료 게스트 실전'],
-    image: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=600&auto=format&fit=crop'
+    image: caféImage
   },
   {
     id: 'wood',
@@ -26,7 +32,7 @@ export const SPACES_DATA = [
     mentor: '이명규 대표 (나무디자인 전문 목공예 작가)',
     mentorIntro: '“나무는 서툰 톱질도, 울퉁불퉁한 결도 모두 제 방식대로 보듬어 줍니다. 내 속도에 오롯이 귀 기울이며 손끝으로 완성하는 성취감을 차분히 선물하고 싶습니다.”',
     activities: ['수제 가문비나무 머들러 & 우드 캘린더 플레이트 제작', '감성 모던 캠핑 스탠드 및 소가구 조립', '천연 식물성 미네랄 마감재 왁싱 및 사포 이완 요법'],
-    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=600&auto=format&fit=crop'
+    image: woodImage
   },
   {
     id: 'leather',
@@ -37,7 +43,7 @@ export const SPACES_DATA = [
     mentor: '류인숙 대표 (재미난가죽공방 수공예 마스터)',
     mentorIntro: '“한 코 한 코 균형 있게 바늘을 가로지르다 보면 마음속 무거웠던 걱정도 한결 차분해지기 마련입니다. 세상 하나뿐인 따스한 나만의 이야기를 스티칭에 담아요.”',
     activities: ['이태리 친환경 오가닉 레더 미니 카드 케이스 크래프트', '이니셜 각인 여권 북마크 및 가방 고리 키링 세팅', '전통적인 새들 스티치 수제 바느질 기법 입문'],
-    image: 'https://images.unsplash.com/photo-1524295988358-048a82a0b36c?q=80&w=600&auto=format&fit=crop'
+    image: leatherImage
   }
 ];
 

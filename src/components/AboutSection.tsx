@@ -110,7 +110,7 @@ export default function AboutSection() {
             재미로 소통하고, 거점에서 복귀하며, 따스하게 살아나다
           </h2>
           <p className="text-sm font-sans text-[#4f5d75] leading-relaxed">
-            ‘재미난회사’는 가상의 회사 콘셉트를 기반으로, 고립과 은둔으로 사회적 소통이 어색해진 청년들이 편안하게 흥미를 발견하고 안심하며 참여할 수 있는 25주 지원 프로그램입니다. 단순 상담에 그치지 않고, 인천 제물포구의 정겨운 동네 거점(카페, 가죽/목공방) 대표님들과 연대하여 생활 속에서 건강한 일상의 리듬과 관계의 온기를 차곡차곡 되찾습니다.
+            ‘재미난회사’는 가상의 회사 콘셉트를 기반으로, 새로운 사람들과의 만남이나 활동을 통해 일상의 변화를 만들어가고 싶은 청년들이 편안하게 흥미를 발견하고 안심하며 참여할 수 있는 25주 지원 프로그램입니다. 단순 상담에 그치지 않고, 인천 제물포구의 정겨운 동네 거점(카페, 가죽/목공방) 대표님들과 연대하여 생활 속에서 건강한 일상의 리듬과 관계의 온기를 차곡차곡 되찾습니다.
           </p>
           <div className="pt-4 border-t border-[#eae6df] space-y-3">
             <div className="flex items-center gap-3 text-xs text-[#132a13] font-bold">
@@ -121,9 +121,14 @@ export default function AboutSection() {
               <span className="w-20 inline-block text-[#4f6d7a] uppercase font-semibold shrink-0">지원대상</span>
               <span>만 19세~39세의 청년 중 인천광역시 제물포구에 연고를 둔 청년으로, 새로운 관심사와 가능성을 발견하고 새로운 도전을 시작해보고 싶은 청년 (10명 내외)</span>
             </div>
-            <div className="flex items-center gap-3 text-xs text-[#132a13] font-bold">
-              <span className="w-20 inline-block text-[#4f6d7a] uppercase font-semibold">참가혜택</span>
-              <span>카페 실습, 원목 가구DIY, 가죽 공예 재료비 전체 무상 지원 및 이수 성과증 증정</span>
+            <div className="flex items-start gap-3 text-xs text-[#132a13] font-bold">
+              <span className="w-20 inline-block text-[#4f6d7a] uppercase font-semibold shrink-0">참가혜택</span>
+              <div className="space-y-1">
+                <p>카페 실습, 원목 가구DIY, 가죽 공예 재료비 전체 무상 지원 및 이수 이수증 증여</p>
+                <p className="text-[#90a955] font-bold flex items-center gap-1">
+                  <span>⭐️</span> 전용 어플 활동 포인트 지급 (인천 제물포구 내 등록된 연계 가게 - 식당, 카페, 문화공간 등에서 유용하게 사용 가능)
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -271,36 +276,7 @@ export default function AboutSection() {
         </div>
       </section>
 
-      {/* 3.5. 플랫폼 공유 및 접속 안내 */}
-      <section className="bg-[#4f6d7a]/5 border border-[#4f6d7a]/15 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="space-y-2 text-center md:text-left">
-          <h3 className="text-lg font-bold text-[#132a13] font-sans flex items-center justify-center md:justify-start gap-2">
-            <Smile className="w-5 h-5 text-[#90a955]" />
-            어디서나 접속 가능한 대표 플랫폼 링크
-          </h3>
-          <p className="text-xs text-[#5c677d] leading-relaxed max-w-2xl">
-            이 플랫폼은 반응형 웹으로 설계되어 있으며 아래 주소를 통해 복지사, 멘토 대표님, 참여 희망 청년 및 이웃들이 어디서든 자유롭게 접속하여 사업 안내를 보고 온라인으로 안심 접수할 수 있습니다.
-          </p>
-        </div>
-        <div className="flex gap-2 shrink-0 w-full md:w-auto items-center justify-center">
-          <input
-            type="text"
-            readOnly
-            value="https://ais-pre-rvtn64mhfp3vnbqaxkfono-569753364661.asia-northeast1.run.app"
-            className="bg-white border border-[#e9e4dc] text-[11px] font-mono rounded-xl px-3 py-2 w-full md:w-60 focus:outline-none focus:border-[#4f6d7a] select-all"
-          />
-          <button
-            onClick={handleCopy}
-            className={`font-sans text-xs font-bold px-4 py-2.5 rounded-xl transition-all duration-200 active:scale-95 whitespace-nowrap text-white ${
-              copiedLink
-                ? 'bg-[#90a955]'
-                : 'bg-[#132a13] hover:bg-[#31572c]'
-            }`}
-          >
-            {copiedLink ? '복사 완료! 🎉' : '링크 복사'}
-          </button>
-        </div>
-      </section>
+
 
       {/* 4. 사업 FAQ */}
       <section className="space-y-6 max-w-4xl mx-auto" id="spaces-overview">
