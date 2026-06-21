@@ -50,7 +50,7 @@ export default function HeroSection({ onJoinClick, onExploreClick }: HeroSection
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-6 text-base sm:text-lg text-[#556b2f] max-w-3xl mx-auto font-sans leading-relaxed"
         >
-          오랫동안 고립되거나 은둔의 시간을 보내 마음의 관계 성장이 잠시 멈춘 인천 중구 청년들을 위해, <br className="hidden sm:inline" />
+          오랫동안 고립되거나 은둔의 시간을 보내 마음의 관계 성장이 잠시 멈춘 인천 제물포구 청년들을 위해, <br className="hidden sm:inline" />
           조용하되 안전하게 일상의 건강한 리듬과 온기 가득한 인간관계를 되찾아 가는 <br className="hidden sm:inline" />
           공동 경험 기반 도심 속 아지트, <strong className="text-[#132a13]">재미난회사</strong>입니다.
         </motion.p>

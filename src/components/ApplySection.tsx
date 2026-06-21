@@ -166,7 +166,7 @@ export default function ApplySection() {
         phone: newApp.phone,
         birthDate: newApp.birthDate,
         gender: newApp.gender === 'female' ? '여성' : '남성',
-        residence: newApp.residence === 'yes' ? '예 (인천 중구 거주/생활권)' : '아니오',
+        residence: newApp.residence === 'yes' ? '예 (인천 제물포구 거주/생활권)' : '아니오',
         motivation: newApp.motivation,
         interests: interestLabels.join(', ') || '선택 없음',
         diagnosticScore: `관계 소통 상태: ${diagScore.isolation}단계 / 주거 생활 상태: ${diagScore.seclusion}단계`,
@@ -428,15 +428,15 @@ export default function ApplySection() {
 
                 <div>
                   <label className="block text-[10px] font-bold text-[#4f6d7a] uppercase mb-1">
-                    인천광역시 중구 거주 혹은 주요 활동지 여부
+                    인천광역시 제물포구 거주 혹은 주요 활동지 여부
                   </label>
                   <select
                     value={residence}
                     onChange={(e) => setResidence(e.target.value)}
                     className="w-full bg-[#faf8f5] border border-[#e9e4dc] rounded-xl px-3 py-3 text-xs text-[#132a13] focus:outline-none focus:border-[#90a955] transition-all h-[42px]"
                   >
-                    <option value="yes">예, 인천 중구에 거주하거나 주된 연고가 있습니다.</option>
-                    <option value="yes_work">예, 인천에 살고 있으며 인천 중구 거점 이동이 수월합니다.</option>
+                    <option value="yes">예, 인천 제물포구에 거주하거나 주된 연고가 있습니다.</option>
+                    <option value="yes_work">예, 인천에 살고 있으며 인천 제물포구 거점 이동이 수월합니다.</option>
                     <option value="no">아니오, 타 지역에 연고를 두고 있습니다.</option>
                   </select>
                 </div>
@@ -478,7 +478,7 @@ export default function ApplySection() {
                   <textarea
                     value={motivation}
                     onChange={(e) => setMotivation(e.target.value)}
-                    placeholder="예: 집 밖을 무언가 목적으로 나서는 일이 오랫동안 두렵고 어색했습니다. 이번 기회에 인천 중구의 편안한 느호카페와 가죽, 목공 공방들이 있다는 얘길 듣고 자상한 분들과 함께 사포를 만지작거리며 굳어있던 일상의 결을 부드럽게 쓰다듬고 싶어 조심스레 노크합니다."
+                    placeholder="예: 집 밖을 무언가 목적으로 나서는 일이 오랫동안 두렵고 어색했습니다. 이번 기회에 인천 제물포구의 편안한 느호카페와 가죽, 목공 공방들이 있다는 얘길 듣고 자상한 분들과 함께 사포를 만지작거리며 굳어있던 일상의 결을 부드럽게 쓰다듬고 싶어 조심스레 노크합니다."
                     required
                     rows={4}
                     className="w-full bg-[#faf8f5] border border-[#e9e4dc] rounded-xl px-4 py-3 text-xs text-[#132a13] placeholder-[#4f5d75]/50 focus:outline-none focus:border-[#90a955] resize-none transition-all"

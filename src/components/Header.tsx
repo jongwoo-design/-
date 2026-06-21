@@ -70,13 +70,7 @@ export default function Header({ activeTab, setActiveTab }: HeaderProps) {
             })}
           </nav>
 
-          {/* Status badge */}
-          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
-            <span className="inline-flex items-center px-2.5 py-1.5 rounded-full text-[10px] sm:text-xs font-semibold bg-[#eae6df] text-[#132a13] whitespace-nowrap">
-              <span className="w-1.5 h-1.5 mr-1.5 rounded-full bg-[#90a955] animate-pulse"></span>
-              모집중
-            </span>
-          </div>
+          {/* Status badge removed as requested */}
         </div>
       </div>
 

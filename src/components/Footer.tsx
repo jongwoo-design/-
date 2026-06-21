@@ -71,12 +71,12 @@ export default function Footer() {
             </h4>
             <p className="text-[#eae6df]/70 leading-relaxed text-[11px]">
               <strong>성.미가엘종합사회복지관</strong><br />
-              지번: (22316) 인천광역시 중구 송학로 40 (내동 3-5) <br />
+              지번: (22316) 인천광역시 제물포구 송학로 40 (내동 3-5) <br />
               Fax: 032) 777-7191
             </p>
             <div className="pt-2">
               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-medium bg-white/10 text-[#90a955]">
-                ● 인천광역시 중구 청년 마음키움 지원사업
+                ● 인천광역시 제물포구 청년 마음키움 지원사업
               </span>
             </div>
           </div>

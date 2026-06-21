@@ -197,7 +197,7 @@ export default function CampaignSection() {
                 type="text"
                 value={nickname}
                 onChange={(e) => setNickname(e.target.value)}
-                placeholder="예: 중구주민 / 미소이웃"
+                placeholder="예: 제물포이웃 / 미소이웃"
                 required
                 maxLength={15}
                 className="w-full bg-white border border-[#e9e4dc] rounded-xl px-4 py-2.5 text-xs text-[#132a13] placeholder-[#4f5d75]/50 focus:outline-none focus:border-[#90a955] transition-all"

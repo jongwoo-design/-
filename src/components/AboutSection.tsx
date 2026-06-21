@@ -110,16 +110,16 @@ export default function AboutSection() {
             재미로 소통하고, 거점에서 복귀하며, 따스하게 살아나다
           </h2>
           <p className="text-sm font-sans text-[#4f5d75] leading-relaxed">
-            ‘재미난회사’는 가상의 회사 콘셉트를 기반으로, 고립과 은둔으로 사회적 소통이 어색해진 청년들이 편안하게 흥미를 발견하고 안심하며 참여할 수 있는 25주 지원 프로그램입니다. 단순 상담에 그치지 않고, 인천 중구의 정겨운 동네 거점(카페, 가죽/목공방) 대표님들과 연대하여 생활 속에서 건강한 일상의 리듬과 관계의 온기를 차곡차곡 되찾습니다.
+            ‘재미난회사’는 가상의 회사 콘셉트를 기반으로, 고립과 은둔으로 사회적 소통이 어색해진 청년들이 편안하게 흥미를 발견하고 안심하며 참여할 수 있는 25주 지원 프로그램입니다. 단순 상담에 그치지 않고, 인천 제물포구의 정겨운 동네 거점(카페, 가죽/목공방) 대표님들과 연대하여 생활 속에서 건강한 일상의 리듬과 관계의 온기를 차곡차곡 되찾습니다.
           </p>
           <div className="pt-4 border-t border-[#eae6df] space-y-3">
             <div className="flex items-center gap-3 text-xs text-[#132a13] font-bold">
               <span className="w-20 inline-block text-[#4f6d7a] uppercase font-semibold">사업기간</span>
               <span>2026년 7월 ~ 12월 (총 25주 과정)</span>
             </div>
-            <div className="flex items-center gap-3 text-xs text-[#132a13] font-bold">
-              <span className="w-20 inline-block text-[#4f6d7a] uppercase font-semibold">지원대상</span>
-              <span>만 19세 ~ 39세의 인천광역시 중구에 연고를 둔, 고립·은둔 상태의 치유와 일상 복귀를 소망하는 청년 (10명 내외)</span>
+            <div className="flex items-start gap-3 text-xs text-[#132a13] font-bold">
+              <span className="w-20 inline-block text-[#4f6d7a] uppercase font-semibold shrink-0">지원대상</span>
+              <span>만 19세~39세의 청년 중 인천광역시 제물포구에 연고를 둔 청년으로, 새로운 관심사와 가능성을 발견하고 새로운 도전을 시작해보고 싶은 청년 (10명 내외)</span>
             </div>
             <div className="flex items-center gap-3 text-xs text-[#132a13] font-bold">
               <span className="w-20 inline-block text-[#4f6d7a] uppercase font-semibold">참가혜택</span>
