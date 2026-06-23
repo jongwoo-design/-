@@ -121,16 +121,16 @@ export default function CampaignSection() {
             문턱을 낮추고 이웃과 마주서는 날
           </h2>
           <p className="text-sm font-sans text-[#4f5d75] leading-relaxed">
-            고립된 청년이 방문 밖을 나와 자기만의 안전한 삶을 구축하는 데에는 
+            고립과 은둔을 허물고 방문 밖을 나와 자기만의 안전한 삶을 구축하는 데에는 
             지역사회의 지지와 따스한 시선이 필수적입니다. <br />
-            청년들의 마음 자립을 성원해 주시는 <strong>따스한 연결 엽서</strong>를 하단 엽서함에 남겨주세요. 엽서를 채워주신 분들 중 추첨을 통해 청년들이 한 땀 한 땀 마음에 담아 완성한 수공예품 선물을 보내 드립니다.
+            참여자분들의 마음 회복과 자립을 성원해 주시는 <strong>따스한 연결 엽서</strong>를 하단 엽서함에 남겨주세요. 엽서를 채워주신 분들 중 추첨을 통해 참여자들께서 한 땀 한 땀 정성을 듬뿍 담아 완성한 수공예품 선물을 보내 드립니다.
           </p>
 
           <div className="bg-[#fcfbf9] rounded-2xl p-5 border border-[#e9e4dc] flex items-start gap-3">
             <Gift className="w-5 h-5 text-[#90a955] shrink-0 mt-0.5" />
             <div className="text-xs text-[#4f5d75]">
               <strong className="text-[#132a13]">응원 엽서 & 추첨 선물 참여 안내</strong> <br/>
-              이웃들이 무관심과 편견을 지우고 진심으로 건네준 따뜻한 엽서 한 장은 방문을 여는 가장 든든한 용기가 됩니다. 정성스레 엽서를 남겨 주신 이웃분들 중 정기 추첨을 진행해 청년들의 창작품 굿즈를 감사의 마음으로 배송해 드립니다.
+              이웃들이 무관심과 편견을 지우고 진심으로 건네준 따뜻한 엽서 한 장은 방문을 여는 가장 든든한 용기가 됩니다. 정성스레 엽서를 남겨 주신 이웃분들 중 정기 추첨을 진행해 참여자들의 고운 손길이 머문 수공예 일상 굿즈를 감사의 마음으로 배송해 드립니다.
             </div>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default function CampaignSection() {
             따스한 연결 엽서 남기기
           </h3>
           <p className="text-[11px] leading-relaxed text-[#4f5d75] mb-6">
-            방 밖으로 한 걸음 내딛는 일은 누구보다 끈기 있는 용기가 필요합니다. 마음을 여는 청년들이 미소 지을 수 있는 응원을 듬뿍 들려주세요.
+            방 밖으로 한 걸음 내딛는 일은 누구보다 끈기 있는 용기가 필요합니다. 마음을 여는 모든 참여자분들이 잔잔하게 미소 지을 수 있는 응원을 듬뿍 들려주세요.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-4">

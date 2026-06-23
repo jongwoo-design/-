@@ -26,7 +26,7 @@ export default function Footer() {
             
             <p className="text-xs leading-relaxed text-[#eae6df]/70">
               재미난회사는 인천광역시의 지원으로 성·미가엘종합사회복지관이 주관하는 사업입니다. 
-              최근 가쁜 사회 속에서 홀로 긴 휴식을 걷고 있는 청년들의 건강한 일상과 생활 활력을 북돋우며, 
+              최근 가쁜 사회 속에서 홀로 긴 휴식을 걷고 있는 분들의 건강한 일상과 생활 활력을 북돋우며, 
               이웃 카페 및 수공예 공방 대표들과의 자상한 동반 활동을 통해 마음의 온기를 넓혀갑니다.
             </p>
 
@@ -76,7 +76,7 @@ export default function Footer() {
             </p>
             <div className="pt-2">
               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-medium bg-white/10 text-[#90a955]">
-                ● 인천광역시 제물포구 청년 마음키움 지원사업
+                ● 인천광역시 제물포구 마음키움 지원사업
               </span>
             </div>
           </div>

@@ -105,9 +105,9 @@ export function MigaelWelfareLogo({ className = 'h-8' }: { className?: string })
 // Combined Sponsor Bar
 export default function SponsorLogos({ className = 'flex gap-4' }: { className?: string }) {
   return (
-    <div className={`flex items-center flex-wrap ${className}`}>
+    <div className={`flex items-center flex-wrap gap-4 ${className}`}>
       <IncheonLogo className="h-7 sm:h-8" />
-      <div className="h-4 w-px bg-gray-300" />
+      <div className="h-4 w-px bg-stone-300 hidden sm:block" />
       <MigaelWelfareLogo className="h-7 sm:h-8" />
     </div>
   );

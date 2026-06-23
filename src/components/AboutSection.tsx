@@ -85,7 +85,7 @@ export default function AboutSection() {
     {
       icon: Users,
       title: '관계 연결망 및 소속감',
-      text: '안전한 경계를 보장하는 거점 멘토대표 및 동료 청년들과의 신뢰 형성으로 부정적인 인간관계 경험을 따스한 지지로 전환합니다.'
+      text: '안전한 경계를 보장하는 거점 멘토대표 및 동료 참여자들과의 신뢰 형성으로 부정적인 인간관계 경험을 따스한 지지로 전환합니다.'
     },
     {
       icon: Target,
@@ -110,7 +110,7 @@ export default function AboutSection() {
             재미로 소통하고, 거점에서 복귀하며, 따스하게 살아나다
           </h2>
           <p className="text-sm font-sans text-[#4f5d75] leading-relaxed">
-            ‘재미난회사’는 가상의 회사 콘셉트를 기반으로, 새로운 사람들과의 만남이나 활동을 통해 일상의 변화를 만들어가고 싶은 청년들이 편안하게 흥미를 발견하고 안심하며 참여할 수 있는 25주 지원 프로그램입니다. 단순 상담에 그치지 않고, 인천 제물포구의 정겨운 동네 거점(카페, 가죽/목공방) 대표님들과 연대하여 생활 속에서 건강한 일상의 리듬과 관계의 온기를 차곡차곡 되찾습니다.
+            ‘재미난회사’는 가상의 회사 콘셉트를 기반으로, 새로운 사람들과의 만남이나 활동을 통해 일상의 변화를 만들어가고 싶은 모든 분들이 편안하게 흥미를 발견하고 안심하며 참여할 수 있는 25주 지원 프로그램입니다. 단순 상담에 그치지 않고, 인천 제물포구의 정겨운 동네 거점(카페, 가죽/목공방) 대표님들과 연대하여 생활 속에서 건강한 일상의 리듬과 관계의 온기를 차곡차곡 되찾습니다.
           </p>
           <div className="pt-4 border-t border-[#eae6df] space-y-3">
             <div className="flex items-center gap-3 text-xs text-[#132a13] font-bold">
@@ -119,7 +119,7 @@ export default function AboutSection() {
             </div>
             <div className="flex items-start gap-3 text-xs text-[#132a13] font-bold">
               <span className="w-20 inline-block text-[#4f6d7a] uppercase font-semibold shrink-0">지원대상</span>
-              <span>만 19세~39세의 청년 중 인천광역시 제물포구에 연고를 둔 청년으로, 새로운 관심사와 가능성을 발견하고 새로운 도전을 시작해보고 싶은 청년 (10명 내외)</span>
+              <span>인천광역시 제물포구에 연고(주거, 직장 등)를 두고 있으며, 새로운 관심체험과 만남을 통해 일상의 따스한 도전을 시작해보고 싶은 누구나 (10명 내외)</span>
             </div>
             <div className="flex items-start gap-3 text-xs text-[#132a13] font-bold">
               <span className="w-20 inline-block text-[#4f6d7a] uppercase font-semibold shrink-0">참가혜택</span>
@@ -160,7 +160,7 @@ export default function AboutSection() {
           <div className="mt-8 pt-6 border-t border-[#e9e4dc] bg-white/50 p-4 rounded-xl flex items-start gap-3">
             <Gift className="w-5 h-5 text-[#e76f51] shrink-0 mt-0.5" />
             <div className="text-xs text-[#4f5d75] leading-relaxed">
-              <strong className="text-[#132a13] block mb-0.5">망설이는 청년들과 주변 이웃들에게</strong>
+              <strong className="text-[#132a13] block mb-0.5">망설이는 분들과 주변 이웃들에게</strong>
               "혹시 나도 참여할 수 있을까?", "주변에 홀로 힘든 계절을 지나고 있는 친한 동생이나 친구가 있는데 권해볼까?" 하는 가벼운 관심에서 출발합니다. 어색하고 서툰 어떤 걸음이라도 환영받을 준비가 되어 있습니다.
             </div>
           </div>
@@ -261,9 +261,9 @@ export default function AboutSection() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 text-xs font-medium text-[#eae6df]">
             <div className="bg-white/10 p-5 rounded-xl border border-white/20 space-y-2">
-              <strong className="text-white text-sm block">🎨 청년 참여자 제작 콘텐츠 전시</strong>
+              <strong className="text-white text-sm block">🎨 참여자 제작 콘텐츠 전시</strong>
               <p className="text-[#d8d3c9]">
-                활동 시간 틈틈이 직접 인쇄·디자인한 사진, 인터뷰 구절, 힐링 일러스트를 통해 비슷한 시기에 홀로 숨을 고르고 있는 청년들에게 기운을 돋우는 마중물의 안부를 전합니다.
+                활동 시간 틈틈이 직접 인쇄·디자인한 사진, 인터뷰 구절, 힐링 일러스트를 통해 비슷한 시기에 홀로 숨을 고르고 있는 이웃들에게 기운을 돋우는 마중물의 안부를 전합니다.
               </p>
             </div>
             <div className="bg-white/10 p-5 rounded-xl border border-white/20 space-y-2">
